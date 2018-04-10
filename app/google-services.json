@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "45461066041",
+    "firebase_url": "https://rummys-salon.firebaseio.com",
+    "project_id": "rummys-salon",
+    "storage_bucket": "rummys-salon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45461066041:android:f074c224e398d5a0",
+        "android_client_info": {
+          "package_name": "application.adhiraj.testscroll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45461066041-bdc85t1aefko988luseg5cinjgrjjslc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "application.adhiraj.testscroll",
+            "certificate_hash": "fc6c492978de7573c0b3faefe5c866113c7f4529"
+          }
+        },
+        {
+          "client_id": "45461066041-l1kqpr5aidppeb3oas1uo9alc668jqrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZlhWlGm3HXfXyt_19l6LHIuQOXqoYvu8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45461066041-l1kqpr5aidppeb3oas1uo9alc668jqrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

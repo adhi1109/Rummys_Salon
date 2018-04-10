@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="application.adhiraj.testscroll.AppointmentBookActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                style="@style/EditorFieldStyle"
+                android:id="@+id/BookNameEditText"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="2dp"
+                    android:text="Date"
+                    android:paddingTop="16dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_weight="0.35" />
+
+                <TextView
+                    android:id="@+id/selectDateAppointment"
+                    android:layout_width="0dp"
+                    android:onClick="showCallender"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="Select Date"
+                    android:paddingTop="16dp"
+                    style="@style/EditorFieldStyle"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="16dp"
+                    android:text="Time"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_weight="0.35" />
+
+                <TextView
+                    android:id="@+id/selectTimeAppointment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="showTime"
+                    android:layout_gravity="center"
+                    android:text="Select Time"
+                    android:paddingTop="16dp"
+                    style="@style/EditorFieldStyle"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/BookServiceEditText"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint=" Tap to Select Service"
+                    android:onClick="selectServices"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:onClick="delete"
+                    android:text="Edit"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    android:gravity="right"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Tap to Select Service"
+                android:textSize="14dp"
+                android:layout_marginLeft="32dp"
+                android:onClick="selectServices"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:id="@+id/servicesChosen"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:text="Add a package?"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <include layout="@layout/packages_list" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Checkout"
+            android:onClick="LaunchSummary"
+            android:textColor="#FFFFFF"
+            android:layout_margin="16dp"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

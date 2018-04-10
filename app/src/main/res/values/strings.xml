@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Rummy\'s Salon</string>
+    <string name="large_text">
+        When your looks speak louder than the words; that’s when your walk of fame begins. Let the most perfect look dawn upon your heart-capturing demeanor while you strut towards the acme to conquer the world.\n\n
+
+Rummy is considered to be one of the top notch stylist with an impressive list of corporate clients. She is the ‘Makeover and Hair creative specialist’ and has an eye for detailing and trend and has become a leader in developing and unearthing creative treasures. She believes that hair and makeup should be a glamorous extension of who you are inside.\n\n
+
+Her ultra-contemporary salon, “Rummy’s Salon” is offering specialized services in hair, beauty, makeup and hair extensions all under one roof.\n\n
+
+With her passion for creating a cutting edge look in her clients, she is constantly upgrading her salon with new and innovative training and products based on the client needs. Her education and experience in the field is from the best National and International institutes making her skills stand apart from many other aspirants in this field.\n\n
+
+QUALIFICATIONS-\n
+1. Vidal Sasoon, London\n
+2. Make Up For Ever Academy, Paris\n
+3. Nalini and Yasmin, Mumbai\n
+4. Bblunt, Mumbai\n
+5. Vidya Tikari, Delhi\n
+6. Marvie Beck, Mumbai\n
+7. Seema V Jayrajani, Mumbai\n\n
+
+“Rummy’s Salon” is committed to anticipate the need of each client and honors in creating an environment of refinement that inspires each of us and finally brings out the best in “YOU”.\n
+    </string>
+
+    <string name="small_text">
+        When your looks speak louder than the words; that’s when your walk of fame begins. Let the most perfect look dawn upon your heart-capturing demeanor while you strut towards the acme to conquer the world.\n\n
+
+Rummy is considered to be one of the top notch stylist with an impressive list of corporate clients. She is the ‘Makeover and Hair creative specialist’ and has an eye for detailing and trend and has become a leader in developing and unearthing creative treasures. She believes that hair and makeup should be a glamorous extension of who you are inside.\n\n
+
+Her ultra-contemporary salon, “Rummy’s Salon” is offering specialized services in hair, beauty, makeup and hair extensions all under one roof.\n\n
+
+With her passion for creating a cutting edge look in her clients, she is constantly upgrading her salon with new and innovative training and products based on the client needs. Her education and experience in the field is from the best National and International institutes making her skills stand apart from many other aspirants in this field.\n
+    </string>
+
+    <string name="smaller_text">When your looks speak louder than the words; that’s when your walk of fame begins. Let the most perfect look dawn upon your heart-capturing demeanor while you strut towards the acme to conquer the world.</string>
+
+    <string name="reviewOne">Personalised services. Makes you want to visit again. In a very short time it feels as if I have been coming here since ages.</string>
+    <string name="reviewOneName">Swapna Bhattacharyya</string>
+    <string name="reviewOneRating">5</string>
+    <string name="reviewOneDate">December 18, 2014</string>
+
+    <string name="reviewTwo">Rummy is more than a stylist! ..her salon is a home away from home.....a place to relax recoup and rejoice. I love going there.</string>
+    <string name="reviewTwoRating">5</string>
+    <string name="reviewTwoDate">November 8, 2016 </string>
+    <string name="reviewTwoName">Parul Agarwal</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_staff_profile_activty">StaffProfileActivty</string>
+
+    <string name="facebook_app_id">adhiraj.app.rummys.salon.facebook</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_package_detail">PackageDetailActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
